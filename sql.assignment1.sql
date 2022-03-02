@@ -28,3 +28,4 @@ SELECT *FROM WORKER WHERE DEPARTMENT ='EEE';
 SELECT *FROM WORKER WHERE DEPARTMENT ='MECH';
 -- Q-3. Write an SQL query to show the last 5 record from a table.
 SELECT*FROM WORKER WHERE id>5;
+select * from worker order by id desc limit 5 ;
